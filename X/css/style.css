@@ -1,0 +1,162 @@
+html {
+    height: 100%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bolder;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    user-select: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header {
+    font-size: 1vw;
+    left: 1%;
+    position: absolute;
+    top: 10%;
+    transition: 0.5s;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.X {
+    font-size: 2vw;
+    margin: 10% 0 1% 0%;
+    transition: 0.5s;
+}
+
+.limit2 {
+    margin: 8% 0 0 0;
+    transition: 0.5s;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    height: 74%;
+    justify-content: flex-start;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.postForm {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    transition: 0.5s;
+    width: 25%;
+}
+
+.titlePost {
+    border: 0.2vw groove gray;
+    font-size: 1vw;
+    height: 20%;
+    outline: none;
+    padding: 1% 0 0 1%;
+    resize: none;
+    transition: 0.5s;
+    width: 97%;
+}
+
+.postText {
+    border: 0.2vw groove gray;
+    font-size: 1vw;
+    height: 100%;
+    outline: none;
+    padding: 1% 0 0 1%;
+    resize: none;
+    transition: 0.5s;
+    width: 97%;
+}
+
+textarea::placeholder {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1vw;
+    justify-content: flex-start;
+    transition: 0.5s;
+}
+
+input[type="submit"] {
+    background: white;
+    border: none;
+    border-radius: 4vw;
+    cursor: pointer;
+    font-size: 1vw;
+    height: 8%;
+    margin: 10%;
+    transition: 0.5s;
+    width: 20%;
+}
+
+.postBTN {
+    align-items: center;
+    background: white;
+    border-radius: 4vw;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    font-size: 1vw;
+    height: 4%;
+    justify-content: center;
+    margin: 1%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: 0.5s;
+    width: 4%;
+}
+
+.post {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.title {
+    height: 20%;
+    resize: none;
+    transition: 0.5s;
+    user-select: text;
+    width: 100%;
+}
+
+.text {
+    transition: 0.5s;
+    user-select: text;
+}
+
+.backToMain {
+    color: #868686;
+    transition: 0.5s;
+}
